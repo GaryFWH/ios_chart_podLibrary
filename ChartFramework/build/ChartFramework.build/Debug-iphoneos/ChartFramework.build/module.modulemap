@@ -1,0 +1,6 @@
+framework module ChartFramework {
+  umbrella header "ChartFramework.h"
+
+  export *
+  module * { export * }
+}

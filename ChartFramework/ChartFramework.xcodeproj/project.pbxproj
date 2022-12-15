@@ -1,0 +1,884 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E65B8E628912736001AB1A9 /* BaseChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B87528912736001AB1A9 /* BaseChartViewController.m */; };
+		4E65B8E728912736001AB1A9 /* FullChartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B87628912736001AB1A9 /* FullChartConfig.m */; };
+		4E65B8E828912736001AB1A9 /* FullChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B87728912736001AB1A9 /* FullChartViewController.m */; };
+		4E65B8E928912736001AB1A9 /* ChartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B87828912736001AB1A9 /* ChartConfig.m */; };
+		4E65B8EA28912736001AB1A9 /* MultiDataChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B87928912736001AB1A9 /* MultiDataChartViewController.m */; };
+		4E65B8EB28912736001AB1A9 /* ChartTIConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B87A28912736001AB1A9 /* ChartTIConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B8EC28912736001AB1A9 /* ChartColorConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B87B28912736001AB1A9 /* ChartColorConfig.m */; };
+		4E65B8ED28912736001AB1A9 /* SmallChartViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B87C28912736001AB1A9 /* SmallChartViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B8EE28912736001AB1A9 /* FullChartViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B87D28912736001AB1A9 /* FullChartViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B8EF28912736001AB1A9 /* ChartConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B87E28912736001AB1A9 /* ChartConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B8F028912736001AB1A9 /* FullChartConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B87F28912736001AB1A9 /* FullChartConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B8F128912736001AB1A9 /* BaseChartViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B88028912736001AB1A9 /* BaseChartViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B8F228912736001AB1A9 /* MultiDataChartViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B88128912736001AB1A9 /* MultiDataChartViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B8F328912736001AB1A9 /* SmallChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B88228912736001AB1A9 /* SmallChartViewController.m */; };
+		4E65B8F428912736001AB1A9 /* ChartColorConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B88328912736001AB1A9 /* ChartColorConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B8F528912736001AB1A9 /* ChartTIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B88428912736001AB1A9 /* ChartTIConfig.m */; };
+		4E65B8F628912736001AB1A9 /* ChartConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B88628912736001AB1A9 /* ChartConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B8F728912736001AB1A9 /* ChartTICalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B88728912736001AB1A9 /* ChartTICalculator.m */; };
+		4E65B8F828912736001AB1A9 /* ChartCommData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B88828912736001AB1A9 /* ChartCommData.m */; };
+		4E65B8F928912736001AB1A9 /* ChartCommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B88928912736001AB1A9 /* ChartCommonUtil.m */; };
+		4E65B8FA28912736001AB1A9 /* ChartTI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B88B28912736001AB1A9 /* ChartTI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B8FB28912736001AB1A9 /* CompareTI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B88C28912736001AB1A9 /* CompareTI.m */; };
+		4E65B8FC28912736001AB1A9 /* ChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B88D28912736001AB1A9 /* ChartData.m */; };
+		4E65B8FD28912736001AB1A9 /* ChartBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B88E28912736001AB1A9 /* ChartBackground.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B8FE28912736001AB1A9 /* ChartDataValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B88F28912736001AB1A9 /* ChartDataValue.m */; };
+		4E65B8FF28912736001AB1A9 /* OCTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B89028912736001AB1A9 /* OCTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B90028912736001AB1A9 /* ChartTI.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B89128912736001AB1A9 /* ChartTI.mm */; };
+		4E65B90128912736001AB1A9 /* SubTIRSI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B89328912736001AB1A9 /* SubTIRSI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B90228912736001AB1A9 /* SubTIOBV.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B89428912736001AB1A9 /* SubTIOBV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B90328912736001AB1A9 /* SubTIVolumn.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B89528912736001AB1A9 /* SubTIVolumn.mm */; };
+		4E65B90428912736001AB1A9 /* SubTIROC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B89628912736001AB1A9 /* SubTIROC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B90528912736001AB1A9 /* SubTiList.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B89728912736001AB1A9 /* SubTiList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B90628912736001AB1A9 /* SubTIROC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B89828912736001AB1A9 /* SubTIROC.mm */; };
+		4E65B90728912736001AB1A9 /* SubTIWilliam.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B89928912736001AB1A9 /* SubTIWilliam.mm */; };
+		4E65B90828912736001AB1A9 /* SubTISTCFast.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B89A28912736001AB1A9 /* SubTISTCFast.mm */; };
+		4E65B90928912736001AB1A9 /* SubTISTCSlow.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B89B28912736001AB1A9 /* SubTISTCSlow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B90A28912736001AB1A9 /* SubTIWilliam.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B89C28912736001AB1A9 /* SubTIWilliam.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B90B28912736001AB1A9 /* SubTIVolumn.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B89D28912736001AB1A9 /* SubTIVolumn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B90C28912736001AB1A9 /* SubTISTCSlow.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B89E28912736001AB1A9 /* SubTISTCSlow.mm */; };
+		4E65B90D28912736001AB1A9 /* SubTIOBV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B89F28912736001AB1A9 /* SubTIOBV.mm */; };
+		4E65B90E28912736001AB1A9 /* SubTIDMI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8A028912736001AB1A9 /* SubTIDMI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B90F28912736001AB1A9 /* SubTIRSI.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8A128912736001AB1A9 /* SubTIRSI.mm */; };
+		4E65B91028912736001AB1A9 /* SubTISTCFast.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8A228912736001AB1A9 /* SubTISTCFast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B91128912736001AB1A9 /* SubTIMACD.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8A328912736001AB1A9 /* SubTIMACD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B91228912736001AB1A9 /* SubTIMACD.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8A428912736001AB1A9 /* SubTIMACD.mm */; };
+		4E65B91328912736001AB1A9 /* SubTIDMI.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8A528912736001AB1A9 /* SubTIDMI.mm */; };
+		4E65B91428912736001AB1A9 /* ChartData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8A628912736001AB1A9 /* ChartData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B91528912736001AB1A9 /* CompareTI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8A728912736001AB1A9 /* CompareTI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B91628912736001AB1A9 /* MainTIBB.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8A928912736001AB1A9 /* MainTIBB.mm */; };
+		4E65B91728912736001AB1A9 /* MainTISMA.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8AA28912736001AB1A9 /* MainTISMA.mm */; };
+		4E65B91828912736001AB1A9 /* MainTIWMA.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8AB28912736001AB1A9 /* MainTIWMA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B91928912736001AB1A9 /* MainTIBB.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8AC28912736001AB1A9 /* MainTIBB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B91A28912736001AB1A9 /* MainTIEMA.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8AD28912736001AB1A9 /* MainTIEMA.mm */; };
+		4E65B91B28912736001AB1A9 /* MainTIEMA.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8AE28912736001AB1A9 /* MainTIEMA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B91C28912736001AB1A9 /* MainTISMA.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8AF28912736001AB1A9 /* MainTISMA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B91D28912736001AB1A9 /* MainTISAR.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8B028912736001AB1A9 /* MainTISAR.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B91E28912736001AB1A9 /* MainTIWMA.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8B128912736001AB1A9 /* MainTIWMA.mm */; };
+		4E65B91F28912736001AB1A9 /* MainTIList.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8B228912736001AB1A9 /* MainTIList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B92028912736001AB1A9 /* MainTISAR.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8B328912736001AB1A9 /* MainTISAR.mm */; };
+		4E65B92128912736001AB1A9 /* OCTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8B428912736001AB1A9 /* OCTime.m */; };
+		4E65B92228912736001AB1A9 /* ChartDataValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8B528912736001AB1A9 /* ChartDataValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B92328912736001AB1A9 /* ChartBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8B628912736001AB1A9 /* ChartBackground.m */; };
+		4E65B92428912736001AB1A9 /* ChartTICalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8B728912736001AB1A9 /* ChartTICalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B92528912736001AB1A9 /* ChartCommData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8B828912736001AB1A9 /* ChartCommData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B92628912736001AB1A9 /* ChartCommonUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8B928912736001AB1A9 /* ChartCommonUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B92728912736001AB1A9 /* ChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8BB28912736001AB1A9 /* ChartView.m */; };
+		4E65B92828912736001AB1A9 /* CustomDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8BC28912736001AB1A9 /* CustomDrawView.m */; };
+		4E65B92928912736001AB1A9 /* TIChartClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8BD28912736001AB1A9 /* TIChartClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B92A28912736001AB1A9 /* MultiChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8BE28912736001AB1A9 /* MultiChartView.m */; };
+		4E65B92B28912736001AB1A9 /* ChartClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8BF28912736001AB1A9 /* ChartClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B92C28912736001AB1A9 /* ChartDrawCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8C128912736001AB1A9 /* ChartDrawCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B92D28912736001AB1A9 /* ChartLineObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8C228912736001AB1A9 /* ChartLineObject.m */; };
+		4E65B92E28912736001AB1A9 /* MacdClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8C428912736001AB1A9 /* MacdClass.mm */; };
+		4E65B92F28912736001AB1A9 /* WilliamClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8C528912736001AB1A9 /* WilliamClass.mm */; };
+		4E65B93028912736001AB1A9 /* RocClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8C628912736001AB1A9 /* RocClass.mm */; };
+		4E65B93228912736001AB1A9 /* DmiClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8C828912736001AB1A9 /* DmiClass.mm */; };
+		4E65B93628912736001AB1A9 /* SarClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8CC28912736001AB1A9 /* SarClass.mm */; };
+		4E65B93928912736001AB1A9 /* SmaClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8CF28912736001AB1A9 /* SmaClass.mm */; };
+		4E65B93A28912736001AB1A9 /* BbClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8D028912736001AB1A9 /* BbClass.mm */; };
+		4E65B93D28912736001AB1A9 /* ObvClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8D328912736001AB1A9 /* ObvClass.mm */; };
+		4E65B94028912736001AB1A9 /* StcClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8D628912736001AB1A9 /* StcClass.mm */; };
+		4E65B94128912736001AB1A9 /* VolumeClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8D728912736001AB1A9 /* VolumeClass.mm */; };
+		4E65B94228912736001AB1A9 /* RsiClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8D828912736001AB1A9 /* RsiClass.mm */; };
+		4E65B94428912736001AB1A9 /* MomClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8DA28912736001AB1A9 /* MomClass.mm */; };
+		4E65B94628912736001AB1A9 /* golbal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8DC28912736001AB1A9 /* golbal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B94728912736001AB1A9 /* ChartStructs.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8DD28912736001AB1A9 /* ChartStructs.m */; };
+		4E65B94828912736001AB1A9 /* ChartLineObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8DE28912736001AB1A9 /* ChartLineObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B94928912736001AB1A9 /* ChartDrawCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8DF28912736001AB1A9 /* ChartDrawCommon.m */; };
+		4E65B94A28912736001AB1A9 /* ChartStructs.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8E028912736001AB1A9 /* ChartStructs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B94B28912736001AB1A9 /* ChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8E128912736001AB1A9 /* ChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B94C28912736001AB1A9 /* TIChartClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8E228912736001AB1A9 /* TIChartClass.m */; };
+		4E65B94D28912736001AB1A9 /* CustomDrawView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8E328912736001AB1A9 /* CustomDrawView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B94E28912736001AB1A9 /* MultiChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E65B8E428912736001AB1A9 /* MultiChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E65B94F28912736001AB1A9 /* ChartClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E65B8E528912736001AB1A9 /* ChartClass.m */; };
+		4ED7BB4E26DF6E7800EE2117 /* ChartFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ED7BB4026DF6E7800EE2117 /* ChartFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E022B1A1586708E393BA1362 /* Pods_ChartFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EAB745A5D7DB23ECD9E186 /* Pods_ChartFramework.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FCCC3F93200347D8AAF479E /* Pods-ChartFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartFramework.release.xcconfig"; path = "Target Support Files/Pods-ChartFramework/Pods-ChartFramework.release.xcconfig"; sourceTree = "<group>"; };
+		4E65B87528912736001AB1A9 /* BaseChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseChartViewController.m; sourceTree = "<group>"; };
+		4E65B87628912736001AB1A9 /* FullChartConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullChartConfig.m; sourceTree = "<group>"; };
+		4E65B87728912736001AB1A9 /* FullChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullChartViewController.m; sourceTree = "<group>"; };
+		4E65B87828912736001AB1A9 /* ChartConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartConfig.m; sourceTree = "<group>"; };
+		4E65B87928912736001AB1A9 /* MultiDataChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiDataChartViewController.m; sourceTree = "<group>"; };
+		4E65B87A28912736001AB1A9 /* ChartTIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartTIConfig.h; sourceTree = "<group>"; };
+		4E65B87B28912736001AB1A9 /* ChartColorConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartColorConfig.m; sourceTree = "<group>"; };
+		4E65B87C28912736001AB1A9 /* SmallChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallChartViewController.h; sourceTree = "<group>"; };
+		4E65B87D28912736001AB1A9 /* FullChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullChartViewController.h; sourceTree = "<group>"; };
+		4E65B87E28912736001AB1A9 /* ChartConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartConfig.h; sourceTree = "<group>"; };
+		4E65B87F28912736001AB1A9 /* FullChartConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullChartConfig.h; sourceTree = "<group>"; };
+		4E65B88028912736001AB1A9 /* BaseChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseChartViewController.h; sourceTree = "<group>"; };
+		4E65B88128912736001AB1A9 /* MultiDataChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiDataChartViewController.h; sourceTree = "<group>"; };
+		4E65B88228912736001AB1A9 /* SmallChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallChartViewController.m; sourceTree = "<group>"; };
+		4E65B88328912736001AB1A9 /* ChartColorConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartColorConfig.h; sourceTree = "<group>"; };
+		4E65B88428912736001AB1A9 /* ChartTIConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartTIConfig.m; sourceTree = "<group>"; };
+		4E65B88628912736001AB1A9 /* ChartConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartConst.h; sourceTree = "<group>"; };
+		4E65B88728912736001AB1A9 /* ChartTICalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartTICalculator.m; sourceTree = "<group>"; };
+		4E65B88828912736001AB1A9 /* ChartCommData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartCommData.m; sourceTree = "<group>"; };
+		4E65B88928912736001AB1A9 /* ChartCommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartCommonUtil.m; sourceTree = "<group>"; };
+		4E65B88B28912736001AB1A9 /* ChartTI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartTI.h; sourceTree = "<group>"; };
+		4E65B88C28912736001AB1A9 /* CompareTI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompareTI.m; sourceTree = "<group>"; };
+		4E65B88D28912736001AB1A9 /* ChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartData.m; sourceTree = "<group>"; };
+		4E65B88E28912736001AB1A9 /* ChartBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartBackground.h; sourceTree = "<group>"; };
+		4E65B88F28912736001AB1A9 /* ChartDataValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartDataValue.m; sourceTree = "<group>"; };
+		4E65B89028912736001AB1A9 /* OCTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTime.h; sourceTree = "<group>"; };
+		4E65B89128912736001AB1A9 /* ChartTI.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ChartTI.mm; sourceTree = "<group>"; };
+		4E65B89328912736001AB1A9 /* SubTIRSI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTIRSI.h; sourceTree = "<group>"; };
+		4E65B89428912736001AB1A9 /* SubTIOBV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTIOBV.h; sourceTree = "<group>"; };
+		4E65B89528912736001AB1A9 /* SubTIVolumn.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SubTIVolumn.mm; sourceTree = "<group>"; };
+		4E65B89628912736001AB1A9 /* SubTIROC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTIROC.h; sourceTree = "<group>"; };
+		4E65B89728912736001AB1A9 /* SubTiList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTiList.h; sourceTree = "<group>"; };
+		4E65B89828912736001AB1A9 /* SubTIROC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SubTIROC.mm; sourceTree = "<group>"; };
+		4E65B89928912736001AB1A9 /* SubTIWilliam.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SubTIWilliam.mm; sourceTree = "<group>"; };
+		4E65B89A28912736001AB1A9 /* SubTISTCFast.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SubTISTCFast.mm; sourceTree = "<group>"; };
+		4E65B89B28912736001AB1A9 /* SubTISTCSlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTISTCSlow.h; sourceTree = "<group>"; };
+		4E65B89C28912736001AB1A9 /* SubTIWilliam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTIWilliam.h; sourceTree = "<group>"; };
+		4E65B89D28912736001AB1A9 /* SubTIVolumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTIVolumn.h; sourceTree = "<group>"; };
+		4E65B89E28912736001AB1A9 /* SubTISTCSlow.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SubTISTCSlow.mm; sourceTree = "<group>"; };
+		4E65B89F28912736001AB1A9 /* SubTIOBV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SubTIOBV.mm; sourceTree = "<group>"; };
+		4E65B8A028912736001AB1A9 /* SubTIDMI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTIDMI.h; sourceTree = "<group>"; };
+		4E65B8A128912736001AB1A9 /* SubTIRSI.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SubTIRSI.mm; sourceTree = "<group>"; };
+		4E65B8A228912736001AB1A9 /* SubTISTCFast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTISTCFast.h; sourceTree = "<group>"; };
+		4E65B8A328912736001AB1A9 /* SubTIMACD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTIMACD.h; sourceTree = "<group>"; };
+		4E65B8A428912736001AB1A9 /* SubTIMACD.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SubTIMACD.mm; sourceTree = "<group>"; };
+		4E65B8A528912736001AB1A9 /* SubTIDMI.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SubTIDMI.mm; sourceTree = "<group>"; };
+		4E65B8A628912736001AB1A9 /* ChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartData.h; sourceTree = "<group>"; };
+		4E65B8A728912736001AB1A9 /* CompareTI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompareTI.h; sourceTree = "<group>"; };
+		4E65B8A928912736001AB1A9 /* MainTIBB.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainTIBB.mm; sourceTree = "<group>"; };
+		4E65B8AA28912736001AB1A9 /* MainTISMA.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainTISMA.mm; sourceTree = "<group>"; };
+		4E65B8AB28912736001AB1A9 /* MainTIWMA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTIWMA.h; sourceTree = "<group>"; };
+		4E65B8AC28912736001AB1A9 /* MainTIBB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTIBB.h; sourceTree = "<group>"; };
+		4E65B8AD28912736001AB1A9 /* MainTIEMA.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainTIEMA.mm; sourceTree = "<group>"; };
+		4E65B8AE28912736001AB1A9 /* MainTIEMA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTIEMA.h; sourceTree = "<group>"; };
+		4E65B8AF28912736001AB1A9 /* MainTISMA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTISMA.h; sourceTree = "<group>"; };
+		4E65B8B028912736001AB1A9 /* MainTISAR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTISAR.h; sourceTree = "<group>"; };
+		4E65B8B128912736001AB1A9 /* MainTIWMA.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainTIWMA.mm; sourceTree = "<group>"; };
+		4E65B8B228912736001AB1A9 /* MainTIList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTIList.h; sourceTree = "<group>"; };
+		4E65B8B328912736001AB1A9 /* MainTISAR.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainTISAR.mm; sourceTree = "<group>"; };
+		4E65B8B428912736001AB1A9 /* OCTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTime.m; sourceTree = "<group>"; };
+		4E65B8B528912736001AB1A9 /* ChartDataValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartDataValue.h; sourceTree = "<group>"; };
+		4E65B8B628912736001AB1A9 /* ChartBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartBackground.m; sourceTree = "<group>"; };
+		4E65B8B728912736001AB1A9 /* ChartTICalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartTICalculator.h; sourceTree = "<group>"; };
+		4E65B8B828912736001AB1A9 /* ChartCommData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartCommData.h; sourceTree = "<group>"; };
+		4E65B8B928912736001AB1A9 /* ChartCommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartCommonUtil.h; sourceTree = "<group>"; };
+		4E65B8BB28912736001AB1A9 /* ChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartView.m; sourceTree = "<group>"; };
+		4E65B8BC28912736001AB1A9 /* CustomDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDrawView.m; sourceTree = "<group>"; };
+		4E65B8BD28912736001AB1A9 /* TIChartClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIChartClass.h; sourceTree = "<group>"; };
+		4E65B8BE28912736001AB1A9 /* MultiChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiChartView.m; sourceTree = "<group>"; };
+		4E65B8BF28912736001AB1A9 /* ChartClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartClass.h; sourceTree = "<group>"; };
+		4E65B8C128912736001AB1A9 /* ChartDrawCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartDrawCommon.h; sourceTree = "<group>"; };
+		4E65B8C228912736001AB1A9 /* ChartLineObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartLineObject.m; sourceTree = "<group>"; };
+		4E65B8C428912736001AB1A9 /* MacdClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MacdClass.mm; sourceTree = "<group>"; };
+		4E65B8C528912736001AB1A9 /* WilliamClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WilliamClass.mm; sourceTree = "<group>"; };
+		4E65B8C628912736001AB1A9 /* RocClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RocClass.mm; sourceTree = "<group>"; };
+		4E65B8C728912736001AB1A9 /* ObvClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObvClass.h; sourceTree = "<group>"; };
+		4E65B8C828912736001AB1A9 /* DmiClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DmiClass.mm; sourceTree = "<group>"; };
+		4E65B8C928912736001AB1A9 /* VolumeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolumeClass.h; sourceTree = "<group>"; };
+		4E65B8CA28912736001AB1A9 /* MacdClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacdClass.h; sourceTree = "<group>"; };
+		4E65B8CB28912736001AB1A9 /* DmiClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DmiClass.h; sourceTree = "<group>"; };
+		4E65B8CC28912736001AB1A9 /* SarClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SarClass.mm; sourceTree = "<group>"; };
+		4E65B8CD28912736001AB1A9 /* BbClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BbClass.h; sourceTree = "<group>"; };
+		4E65B8CE28912736001AB1A9 /* StcClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StcClass.h; sourceTree = "<group>"; };
+		4E65B8CF28912736001AB1A9 /* SmaClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SmaClass.mm; sourceTree = "<group>"; };
+		4E65B8D028912736001AB1A9 /* BbClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BbClass.mm; sourceTree = "<group>"; };
+		4E65B8D128912736001AB1A9 /* WilliamClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WilliamClass.h; sourceTree = "<group>"; };
+		4E65B8D228912736001AB1A9 /* SarClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SarClass.h; sourceTree = "<group>"; };
+		4E65B8D328912736001AB1A9 /* ObvClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObvClass.mm; sourceTree = "<group>"; };
+		4E65B8D428912736001AB1A9 /* RsiClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RsiClass.h; sourceTree = "<group>"; };
+		4E65B8D528912736001AB1A9 /* SmaClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmaClass.h; sourceTree = "<group>"; };
+		4E65B8D628912736001AB1A9 /* StcClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StcClass.mm; sourceTree = "<group>"; };
+		4E65B8D728912736001AB1A9 /* VolumeClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VolumeClass.mm; sourceTree = "<group>"; };
+		4E65B8D828912736001AB1A9 /* RsiClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RsiClass.mm; sourceTree = "<group>"; };
+		4E65B8D928912736001AB1A9 /* RocClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RocClass.h; sourceTree = "<group>"; };
+		4E65B8DA28912736001AB1A9 /* MomClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MomClass.mm; sourceTree = "<group>"; };
+		4E65B8DB28912736001AB1A9 /* MomClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomClass.h; sourceTree = "<group>"; };
+		4E65B8DC28912736001AB1A9 /* golbal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = golbal.h; sourceTree = "<group>"; };
+		4E65B8DD28912736001AB1A9 /* ChartStructs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartStructs.m; sourceTree = "<group>"; };
+		4E65B8DE28912736001AB1A9 /* ChartLineObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartLineObject.h; sourceTree = "<group>"; };
+		4E65B8DF28912736001AB1A9 /* ChartDrawCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartDrawCommon.m; sourceTree = "<group>"; };
+		4E65B8E028912736001AB1A9 /* ChartStructs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartStructs.h; sourceTree = "<group>"; };
+		4E65B8E128912736001AB1A9 /* ChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartView.h; sourceTree = "<group>"; };
+		4E65B8E228912736001AB1A9 /* TIChartClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIChartClass.m; sourceTree = "<group>"; };
+		4E65B8E328912736001AB1A9 /* CustomDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDrawView.h; sourceTree = "<group>"; };
+		4E65B8E428912736001AB1A9 /* MultiChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiChartView.h; sourceTree = "<group>"; };
+		4E65B8E528912736001AB1A9 /* ChartClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartClass.m; sourceTree = "<group>"; };
+		4ED7BB3D26DF6E7800EE2117 /* ChartFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChartFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED7BB4026DF6E7800EE2117 /* ChartFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartFramework.h; sourceTree = "<group>"; };
+		4ED7BB4126DF6E7800EE2117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70EAB745A5D7DB23ECD9E186 /* Pods_ChartFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6A390D38BBBAE166D48ABB /* Pods-ChartFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartFramework.debug.xcconfig"; path = "Target Support Files/Pods-ChartFramework/Pods-ChartFramework.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ED7BB3A26DF6E7800EE2117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E022B1A1586708E393BA1362 /* Pods_ChartFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E65B87328912736001AB1A9 /* ChartLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				4E65B87428912736001AB1A9 /* Controller */,
+				4E65B88528912736001AB1A9 /* Public */,
+				4E65B8BA28912736001AB1A9 /* Private */,
+			);
+			path = ChartLibrary;
+			sourceTree = "<group>";
+		};
+		4E65B87428912736001AB1A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E65B87528912736001AB1A9 /* BaseChartViewController.m */,
+				4E65B87628912736001AB1A9 /* FullChartConfig.m */,
+				4E65B87728912736001AB1A9 /* FullChartViewController.m */,
+				4E65B87828912736001AB1A9 /* ChartConfig.m */,
+				4E65B87928912736001AB1A9 /* MultiDataChartViewController.m */,
+				4E65B87A28912736001AB1A9 /* ChartTIConfig.h */,
+				4E65B87B28912736001AB1A9 /* ChartColorConfig.m */,
+				4E65B87C28912736001AB1A9 /* SmallChartViewController.h */,
+				4E65B87D28912736001AB1A9 /* FullChartViewController.h */,
+				4E65B87E28912736001AB1A9 /* ChartConfig.h */,
+				4E65B87F28912736001AB1A9 /* FullChartConfig.h */,
+				4E65B88028912736001AB1A9 /* BaseChartViewController.h */,
+				4E65B88128912736001AB1A9 /* MultiDataChartViewController.h */,
+				4E65B88228912736001AB1A9 /* SmallChartViewController.m */,
+				4E65B88328912736001AB1A9 /* ChartColorConfig.h */,
+				4E65B88428912736001AB1A9 /* ChartTIConfig.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E65B88528912736001AB1A9 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				4E65B88628912736001AB1A9 /* ChartConst.h */,
+				4E65B88728912736001AB1A9 /* ChartTICalculator.m */,
+				4E65B88828912736001AB1A9 /* ChartCommData.m */,
+				4E65B88928912736001AB1A9 /* ChartCommonUtil.m */,
+				4E65B88A28912736001AB1A9 /* Models */,
+				4E65B8B728912736001AB1A9 /* ChartTICalculator.h */,
+				4E65B8B828912736001AB1A9 /* ChartCommData.h */,
+				4E65B8B928912736001AB1A9 /* ChartCommonUtil.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		4E65B88A28912736001AB1A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4E65B88B28912736001AB1A9 /* ChartTI.h */,
+				4E65B88C28912736001AB1A9 /* CompareTI.m */,
+				4E65B88D28912736001AB1A9 /* ChartData.m */,
+				4E65B88E28912736001AB1A9 /* ChartBackground.h */,
+				4E65B88F28912736001AB1A9 /* ChartDataValue.m */,
+				4E65B89028912736001AB1A9 /* OCTime.h */,
+				4E65B89128912736001AB1A9 /* ChartTI.mm */,
+				4E65B89228912736001AB1A9 /* SubTI */,
+				4E65B8A628912736001AB1A9 /* ChartData.h */,
+				4E65B8A728912736001AB1A9 /* CompareTI.h */,
+				4E65B8A828912736001AB1A9 /* MainTI */,
+				4E65B8B428912736001AB1A9 /* OCTime.m */,
+				4E65B8B528912736001AB1A9 /* ChartDataValue.h */,
+				4E65B8B628912736001AB1A9 /* ChartBackground.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4E65B89228912736001AB1A9 /* SubTI */ = {
+			isa = PBXGroup;
+			children = (
+				4E65B89328912736001AB1A9 /* SubTIRSI.h */,
+				4E65B89428912736001AB1A9 /* SubTIOBV.h */,
+				4E65B89528912736001AB1A9 /* SubTIVolumn.mm */,
+				4E65B89628912736001AB1A9 /* SubTIROC.h */,
+				4E65B89728912736001AB1A9 /* SubTiList.h */,
+				4E65B89828912736001AB1A9 /* SubTIROC.mm */,
+				4E65B89928912736001AB1A9 /* SubTIWilliam.mm */,
+				4E65B89A28912736001AB1A9 /* SubTISTCFast.mm */,
+				4E65B89B28912736001AB1A9 /* SubTISTCSlow.h */,
+				4E65B89C28912736001AB1A9 /* SubTIWilliam.h */,
+				4E65B89D28912736001AB1A9 /* SubTIVolumn.h */,
+				4E65B89E28912736001AB1A9 /* SubTISTCSlow.mm */,
+				4E65B89F28912736001AB1A9 /* SubTIOBV.mm */,
+				4E65B8A028912736001AB1A9 /* SubTIDMI.h */,
+				4E65B8A128912736001AB1A9 /* SubTIRSI.mm */,
+				4E65B8A228912736001AB1A9 /* SubTISTCFast.h */,
+				4E65B8A328912736001AB1A9 /* SubTIMACD.h */,
+				4E65B8A428912736001AB1A9 /* SubTIMACD.mm */,
+				4E65B8A528912736001AB1A9 /* SubTIDMI.mm */,
+			);
+			path = SubTI;
+			sourceTree = "<group>";
+		};
+		4E65B8A828912736001AB1A9 /* MainTI */ = {
+			isa = PBXGroup;
+			children = (
+				4E65B8A928912736001AB1A9 /* MainTIBB.mm */,
+				4E65B8AA28912736001AB1A9 /* MainTISMA.mm */,
+				4E65B8AB28912736001AB1A9 /* MainTIWMA.h */,
+				4E65B8AC28912736001AB1A9 /* MainTIBB.h */,
+				4E65B8AD28912736001AB1A9 /* MainTIEMA.mm */,
+				4E65B8AE28912736001AB1A9 /* MainTIEMA.h */,
+				4E65B8AF28912736001AB1A9 /* MainTISMA.h */,
+				4E65B8B028912736001AB1A9 /* MainTISAR.h */,
+				4E65B8B128912736001AB1A9 /* MainTIWMA.mm */,
+				4E65B8B228912736001AB1A9 /* MainTIList.h */,
+				4E65B8B328912736001AB1A9 /* MainTISAR.mm */,
+			);
+			path = MainTI;
+			sourceTree = "<group>";
+		};
+		4E65B8BA28912736001AB1A9 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				4E65B8BB28912736001AB1A9 /* ChartView.m */,
+				4E65B8BC28912736001AB1A9 /* CustomDrawView.m */,
+				4E65B8BD28912736001AB1A9 /* TIChartClass.h */,
+				4E65B8BE28912736001AB1A9 /* MultiChartView.m */,
+				4E65B8BF28912736001AB1A9 /* ChartClass.h */,
+				4E65B8C028912736001AB1A9 /* Models */,
+				4E65B8E128912736001AB1A9 /* ChartView.h */,
+				4E65B8E228912736001AB1A9 /* TIChartClass.m */,
+				4E65B8E328912736001AB1A9 /* CustomDrawView.h */,
+				4E65B8E428912736001AB1A9 /* MultiChartView.h */,
+				4E65B8E528912736001AB1A9 /* ChartClass.m */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		4E65B8C028912736001AB1A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4E65B8C128912736001AB1A9 /* ChartDrawCommon.h */,
+				4E65B8C228912736001AB1A9 /* ChartLineObject.m */,
+				4E65B8C328912736001AB1A9 /* legacy */,
+				4E65B8DD28912736001AB1A9 /* ChartStructs.m */,
+				4E65B8DE28912736001AB1A9 /* ChartLineObject.h */,
+				4E65B8DF28912736001AB1A9 /* ChartDrawCommon.m */,
+				4E65B8E028912736001AB1A9 /* ChartStructs.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4E65B8C328912736001AB1A9 /* legacy */ = {
+			isa = PBXGroup;
+			children = (
+				4E65B8C428912736001AB1A9 /* MacdClass.mm */,
+				4E65B8C528912736001AB1A9 /* WilliamClass.mm */,
+				4E65B8C628912736001AB1A9 /* RocClass.mm */,
+				4E65B8C728912736001AB1A9 /* ObvClass.h */,
+				4E65B8C828912736001AB1A9 /* DmiClass.mm */,
+				4E65B8C928912736001AB1A9 /* VolumeClass.h */,
+				4E65B8CA28912736001AB1A9 /* MacdClass.h */,
+				4E65B8CB28912736001AB1A9 /* DmiClass.h */,
+				4E65B8CC28912736001AB1A9 /* SarClass.mm */,
+				4E65B8CD28912736001AB1A9 /* BbClass.h */,
+				4E65B8CE28912736001AB1A9 /* StcClass.h */,
+				4E65B8CF28912736001AB1A9 /* SmaClass.mm */,
+				4E65B8D028912736001AB1A9 /* BbClass.mm */,
+				4E65B8D128912736001AB1A9 /* WilliamClass.h */,
+				4E65B8D228912736001AB1A9 /* SarClass.h */,
+				4E65B8D328912736001AB1A9 /* ObvClass.mm */,
+				4E65B8D428912736001AB1A9 /* RsiClass.h */,
+				4E65B8D528912736001AB1A9 /* SmaClass.h */,
+				4E65B8D628912736001AB1A9 /* StcClass.mm */,
+				4E65B8D728912736001AB1A9 /* VolumeClass.mm */,
+				4E65B8D828912736001AB1A9 /* RsiClass.mm */,
+				4E65B8D928912736001AB1A9 /* RocClass.h */,
+				4E65B8DA28912736001AB1A9 /* MomClass.mm */,
+				4E65B8DB28912736001AB1A9 /* MomClass.h */,
+				4E65B8DC28912736001AB1A9 /* golbal.h */,
+			);
+			path = legacy;
+			sourceTree = "<group>";
+		};
+		4ED7BB3326DF6E7800EE2117 = {
+			isa = PBXGroup;
+			children = (
+				4ED7BB3F26DF6E7800EE2117 /* ChartFramework */,
+				4ED7BB3E26DF6E7800EE2117 /* Products */,
+				5FD0781605D4343E4F35AC8A /* Pods */,
+				6F37B5046B0C70BD2A65DAA7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4ED7BB3E26DF6E7800EE2117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ED7BB3D26DF6E7800EE2117 /* ChartFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ED7BB3F26DF6E7800EE2117 /* ChartFramework */ = {
+			isa = PBXGroup;
+			children = (
+				4E65B87328912736001AB1A9 /* ChartLibrary */,
+				4ED7BB4026DF6E7800EE2117 /* ChartFramework.h */,
+				4ED7BB4126DF6E7800EE2117 /* Info.plist */,
+			);
+			path = ChartFramework;
+			sourceTree = "<group>";
+		};
+		5FD0781605D4343E4F35AC8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF6A390D38BBBAE166D48ABB /* Pods-ChartFramework.debug.xcconfig */,
+				2FCCC3F93200347D8AAF479E /* Pods-ChartFramework.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		6F37B5046B0C70BD2A65DAA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70EAB745A5D7DB23ECD9E186 /* Pods_ChartFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4ED7BB3826DF6E7800EE2117 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E65B90E28912736001AB1A9 /* SubTIDMI.h in Headers */,
+				4E65B91928912736001AB1A9 /* MainTIBB.h in Headers */,
+				4E65B91128912736001AB1A9 /* SubTIMACD.h in Headers */,
+				4E65B8EB28912736001AB1A9 /* ChartTIConfig.h in Headers */,
+				4E65B90A28912736001AB1A9 /* SubTIWilliam.h in Headers */,
+				4E65B90228912736001AB1A9 /* SubTIOBV.h in Headers */,
+				4E65B91428912736001AB1A9 /* ChartData.h in Headers */,
+				4E65B94628912736001AB1A9 /* golbal.h in Headers */,
+				4E65B91F28912736001AB1A9 /* MainTIList.h in Headers */,
+				4E65B94E28912736001AB1A9 /* MultiChartView.h in Headers */,
+				4E65B8F428912736001AB1A9 /* ChartColorConfig.h in Headers */,
+				4E65B90128912736001AB1A9 /* SubTIRSI.h in Headers */,
+				4E65B92528912736001AB1A9 /* ChartCommData.h in Headers */,
+				4E65B92C28912736001AB1A9 /* ChartDrawCommon.h in Headers */,
+				4E65B91C28912736001AB1A9 /* MainTISMA.h in Headers */,
+				4E65B91528912736001AB1A9 /* CompareTI.h in Headers */,
+				4E65B91828912736001AB1A9 /* MainTIWMA.h in Headers */,
+				4E65B94828912736001AB1A9 /* ChartLineObject.h in Headers */,
+				4E65B91D28912736001AB1A9 /* MainTISAR.h in Headers */,
+				4E65B94B28912736001AB1A9 /* ChartView.h in Headers */,
+				4E65B92228912736001AB1A9 /* ChartDataValue.h in Headers */,
+				4E65B8F228912736001AB1A9 /* MultiDataChartViewController.h in Headers */,
+				4E65B8F128912736001AB1A9 /* BaseChartViewController.h in Headers */,
+				4E65B8ED28912736001AB1A9 /* SmallChartViewController.h in Headers */,
+				4E65B8FA28912736001AB1A9 /* ChartTI.h in Headers */,
+				4E65B90528912736001AB1A9 /* SubTiList.h in Headers */,
+				4E65B90B28912736001AB1A9 /* SubTIVolumn.h in Headers */,
+				4E65B94D28912736001AB1A9 /* CustomDrawView.h in Headers */,
+				4E65B91B28912736001AB1A9 /* MainTIEMA.h in Headers */,
+				4E65B8FF28912736001AB1A9 /* OCTime.h in Headers */,
+				4E65B8EF28912736001AB1A9 /* ChartConfig.h in Headers */,
+				4E65B90928912736001AB1A9 /* SubTISTCSlow.h in Headers */,
+				4E65B92428912736001AB1A9 /* ChartTICalculator.h in Headers */,
+				4E65B90428912736001AB1A9 /* SubTIROC.h in Headers */,
+				4E65B92928912736001AB1A9 /* TIChartClass.h in Headers */,
+				4E65B91028912736001AB1A9 /* SubTISTCFast.h in Headers */,
+				4E65B92B28912736001AB1A9 /* ChartClass.h in Headers */,
+				4E65B8F028912736001AB1A9 /* FullChartConfig.h in Headers */,
+				4E65B94A28912736001AB1A9 /* ChartStructs.h in Headers */,
+				4E65B8FD28912736001AB1A9 /* ChartBackground.h in Headers */,
+				4E65B8EE28912736001AB1A9 /* FullChartViewController.h in Headers */,
+				4E65B92628912736001AB1A9 /* ChartCommonUtil.h in Headers */,
+				4E65B8F628912736001AB1A9 /* ChartConst.h in Headers */,
+				4ED7BB4E26DF6E7800EE2117 /* ChartFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4ED7BB3C26DF6E7800EE2117 /* ChartFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ED7BB5126DF6E7800EE2117 /* Build configuration list for PBXNativeTarget "ChartFramework" */;
+			buildPhases = (
+				0F67ACED67E375F46BCCCCFC /* [CP] Check Pods Manifest.lock */,
+				4ED7BB3826DF6E7800EE2117 /* Headers */,
+				4ED7BB3926DF6E7800EE2117 /* Sources */,
+				4ED7BB3A26DF6E7800EE2117 /* Frameworks */,
+				4ED7BB3B26DF6E7800EE2117 /* Resources */,
+				4ED7BC3D26DF6EE600EE2117 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChartFramework;
+			productName = ChartFramework;
+			productReference = 4ED7BB3D26DF6E7800EE2117 /* ChartFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ED7BB3426DF6E7800EE2117 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					4ED7BB3C26DF6E7800EE2117 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 4ED7BB3726DF6E7800EE2117 /* Build configuration list for PBXProject "ChartFramework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ED7BB3326DF6E7800EE2117;
+			productRefGroup = 4ED7BB3E26DF6E7800EE2117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ED7BB3C26DF6E7800EE2117 /* ChartFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ED7BB3B26DF6E7800EE2117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F67ACED67E375F46BCCCCFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChartFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ED7BC3D26DF6EE600EE2117 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "wantedConfig=\"Debug\" currentConfig=\"$CONFIGURATION\"    \nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\necho \"$wantedConfig = $currentConfig\"\n\nif [ $currentConfig != $wantedConfig ]; \nthen\n   echo \"Don't Build Chart Framework\"\n    exit 0\nelse \n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Next, work out if we're in SIM or DEVICE\nif [ \"false\" == ${ALREADYINVOKED:-false} ]\nthen\n\nexport ALREADYINVOKED=\"true\"\n\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]\nthen\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nelse\nxcodebuild -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nfi\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\necho \"\\n Step 2\"\necho \"Copy - ${BUILD_DIR}/${CONFIGURATION}-iphoneos/${TARGET_NAME}.framework \\n To ${UNIVERSAL_OUTPUTFOLDER}/\"\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${TARGET_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\n# NO\n\necho \"\\n Step 4\"\necho \"Lipo OutPut - ${UNIVERSAL_OUTPUTFOLDER}/${TARGET_NAME}.framework/${TARGET_NAME} \\n\n${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework/${TARGET_NAME} \\n\n${BUILD_DIR}/${CONFIGURATION}-iphoneos/${TARGET_NAME}.framework/${TARGET_NAME}\"\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${TARGET_NAME}.framework/${TARGET_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework/${TARGET_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${TARGET_NAME}.framework/${TARGET_NAME}\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncd \"PROJECT_DIR - ${PROJECT_DIR}\"\ncd ..\n\necho \"Remove - ${PROJECT_NAME}.framework\"\nrm -R \"${PROJECT_NAME}.framework\"\n\necho \"Copy - ${UNIVERSAL_OUTPUTFOLDER}/${TARGET_NAME}.framework \\n To ${PROJECT_NAME}.framework\"\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${TARGET_NAME}.framework\" \"${PROJECT_NAME}.framework\"\n\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"\n\nfi\n\nfi\n\n\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ED7BB3926DF6E7800EE2117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E65B92028912736001AB1A9 /* MainTISAR.mm in Sources */,
+				4E65B8EC28912736001AB1A9 /* ChartColorConfig.m in Sources */,
+				4E65B93A28912736001AB1A9 /* BbClass.mm in Sources */,
+				4E65B94428912736001AB1A9 /* MomClass.mm in Sources */,
+				4E65B91728912736001AB1A9 /* MainTISMA.mm in Sources */,
+				4E65B93928912736001AB1A9 /* SmaClass.mm in Sources */,
+				4E65B94C28912736001AB1A9 /* TIChartClass.m in Sources */,
+				4E65B8FC28912736001AB1A9 /* ChartData.m in Sources */,
+				4E65B8E928912736001AB1A9 /* ChartConfig.m in Sources */,
+				4E65B94028912736001AB1A9 /* StcClass.mm in Sources */,
+				4E65B90028912736001AB1A9 /* ChartTI.mm in Sources */,
+				4E65B94128912736001AB1A9 /* VolumeClass.mm in Sources */,
+				4E65B8F828912736001AB1A9 /* ChartCommData.m in Sources */,
+				4E65B92E28912736001AB1A9 /* MacdClass.mm in Sources */,
+				4E65B90C28912736001AB1A9 /* SubTISTCSlow.mm in Sources */,
+				4E65B91228912736001AB1A9 /* SubTIMACD.mm in Sources */,
+				4E65B92828912736001AB1A9 /* CustomDrawView.m in Sources */,
+				4E65B90728912736001AB1A9 /* SubTIWilliam.mm in Sources */,
+				4E65B94F28912736001AB1A9 /* ChartClass.m in Sources */,
+				4E65B8F328912736001AB1A9 /* SmallChartViewController.m in Sources */,
+				4E65B90828912736001AB1A9 /* SubTISTCFast.mm in Sources */,
+				4E65B94728912736001AB1A9 /* ChartStructs.m in Sources */,
+				4E65B91E28912736001AB1A9 /* MainTIWMA.mm in Sources */,
+				4E65B8EA28912736001AB1A9 /* MultiDataChartViewController.m in Sources */,
+				4E65B8E628912736001AB1A9 /* BaseChartViewController.m in Sources */,
+				4E65B91328912736001AB1A9 /* SubTIDMI.mm in Sources */,
+				4E65B8FB28912736001AB1A9 /* CompareTI.m in Sources */,
+				4E65B92F28912736001AB1A9 /* WilliamClass.mm in Sources */,
+				4E65B90F28912736001AB1A9 /* SubTIRSI.mm in Sources */,
+				4E65B8F728912736001AB1A9 /* ChartTICalculator.m in Sources */,
+				4E65B92728912736001AB1A9 /* ChartView.m in Sources */,
+				4E65B93028912736001AB1A9 /* RocClass.mm in Sources */,
+				4E65B91A28912736001AB1A9 /* MainTIEMA.mm in Sources */,
+				4E65B94228912736001AB1A9 /* RsiClass.mm in Sources */,
+				4E65B90628912736001AB1A9 /* SubTIROC.mm in Sources */,
+				4E65B92A28912736001AB1A9 /* MultiChartView.m in Sources */,
+				4E65B8E728912736001AB1A9 /* FullChartConfig.m in Sources */,
+				4E65B8E828912736001AB1A9 /* FullChartViewController.m in Sources */,
+				4E65B8F928912736001AB1A9 /* ChartCommonUtil.m in Sources */,
+				4E65B93228912736001AB1A9 /* DmiClass.mm in Sources */,
+				4E65B93628912736001AB1A9 /* SarClass.mm in Sources */,
+				4E65B94928912736001AB1A9 /* ChartDrawCommon.m in Sources */,
+				4E65B92328912736001AB1A9 /* ChartBackground.m in Sources */,
+				4E65B91628912736001AB1A9 /* MainTIBB.mm in Sources */,
+				4E65B8FE28912736001AB1A9 /* ChartDataValue.m in Sources */,
+				4E65B90D28912736001AB1A9 /* SubTIOBV.mm in Sources */,
+				4E65B92D28912736001AB1A9 /* ChartLineObject.m in Sources */,
+				4E65B93D28912736001AB1A9 /* ObvClass.mm in Sources */,
+				4E65B90328912736001AB1A9 /* SubTIVolumn.mm in Sources */,
+				4E65B92128912736001AB1A9 /* OCTime.m in Sources */,
+				4E65B8F528912736001AB1A9 /* ChartTIConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4ED7BB4F26DF6E7800EE2117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4ED7BB5026DF6E7800EE2117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4ED7BB5226DF6E7800EE2117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF6A390D38BBBAE166D48ABB /* Pods-ChartFramework.debug.xcconfig */;
+			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = ChartFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = garyfan.ChartFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ED7BB5326DF6E7800EE2117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FCCC3F93200347D8AAF479E /* Pods-ChartFramework.release.xcconfig */;
+			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = EF67928JXA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = ChartFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = garyfan.ChartFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ED7BB3726DF6E7800EE2117 /* Build configuration list for PBXProject "ChartFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED7BB4F26DF6E7800EE2117 /* Debug */,
+				4ED7BB5026DF6E7800EE2117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ED7BB5126DF6E7800EE2117 /* Build configuration list for PBXNativeTarget "ChartFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED7BB5226DF6E7800EE2117 /* Debug */,
+				4ED7BB5326DF6E7800EE2117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ED7BB3426DF6E7800EE2117 /* Project object */;
+}

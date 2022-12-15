@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D1652C92689C1F2009AAD36 /* SmallChartPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D49E9A72689BAAF00C70506 /* SmallChartPlayerViewController.m */; };
+		3D251B6C26CB93010014803A /* FutureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D251B6A26CB93010014803A /* FutureViewController.m */; };
+		3D251B6D26CB93010014803A /* FutureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D251B6B26CB93010014803A /* FutureViewController.xib */; };
+		3D3D5747266A2D0800A62BEF /* OpenCloseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D5746266A2D0800A62BEF /* OpenCloseModel.m */; };
+		3D49E9AA2689BAAF00C70506 /* SmallChartPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D49E9A82689BAAF00C70506 /* SmallChartPlayerViewController.xib */; };
+		3D5B0425267C83F4002810BA /* TISelectCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B0424267C83F4002810BA /* TISelectCollectionViewController.m */; };
+		3D5B0429267C840B002810BA /* TISelectCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B0428267C840B002810BA /* TISelectCollectionViewCell.m */; };
+		3D912D0D267065420014A824 /* ChartHeadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D912D0B267065420014A824 /* ChartHeadViewController.m */; };
+		3D912D0E267065420014A824 /* ChartHeadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D912D0C267065420014A824 /* ChartHeadViewController.xib */; };
+		3D978D2D2669CB1900CE8369 /* ChartEtnetDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D978D272669BCD400CE8369 /* ChartEtnetDataSource.m */; };
+		3D978D2F2669CB1C00CE8369 /* ChartDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D978D242669BCD400CE8369 /* ChartDataRequest.m */; };
+		3D9E658726688FD6009C20AC /* ChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D9E658626688FD6009C20AC /* ChartViewController.xib */; };
+		3DBB120026C377AC00AC1E06 /* OpenClosePrePostModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBB11FF26C377AC00AC1E06 /* OpenClosePrePostModel.m */; };
+		3DD1447B2665DC58009AEF25 /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD1447A2665DC58009AEF25 /* ChartViewController.m */; };
+		3DD34353261D49D300365E26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD34352261D49D300365E26 /* AppDelegate.m */; };
+		3DD34356261D49D300365E26 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD34355261D49D300365E26 /* SceneDelegate.m */; };
+		3DD34359261D49D300365E26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD34358261D49D300365E26 /* ViewController.m */; };
+		3DD3435C261D49D300365E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD3435A261D49D300365E26 /* Main.storyboard */; };
+		3DD3435E261D49D600365E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD3435D261D49D600365E26 /* Assets.xcassets */; };
+		3DD34361261D49D600365E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD3435F261D49D600365E26 /* LaunchScreen.storyboard */; };
+		3DD34364261D49D600365E26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD34363261D49D600365E26 /* main.m */; };
+		4E1025432679A5F2004FF3F1 /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1025422679A5F2004FF3F1 /* CommonUtil.m */; };
+		4E32C6A32674C1CE00FF66FF /* ChartHeadViewController_V.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E32C6A22674C1CE00FF66FF /* ChartHeadViewController_V.xib */; };
+		4EC2B9B728A4AFA900139E9C /* ChartFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E43AB9F28A3A2CA00163F44 /* ChartFramework.framework */; };
+		4EC2B9B828A4AFA900139E9C /* ChartFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E43AB9F28A3A2CA00163F44 /* ChartFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4EC9CE3D26A5173800BC9425 /* TIConfigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EC9CE3A26A5173800BC9425 /* TIConfigViewController.xib */; };
+		4EC9CE3E26A5173800BC9425 /* TIConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC9CE3B26A5173800BC9425 /* TIConfigViewController.m */; };
+		FD8013F11F4056C7B9F55E9F /* Pods_ChartLibararyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A4DE2552BAA9E539B42DC6 /* Pods_ChartLibararyDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4EC2B9B928A4AFA900139E9C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4EC2B9B828A4AFA900139E9C /* ChartFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C4108891B162093859CA849 /* Pods-ChartLibararyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartLibararyDemo.release.xcconfig"; path = "Target Support Files/Pods-ChartLibararyDemo/Pods-ChartLibararyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		15A4DE2552BAA9E539B42DC6 /* Pods_ChartLibararyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartLibararyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D251B6926CB93010014803A /* FutureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FutureViewController.h; sourceTree = "<group>"; };
+		3D251B6A26CB93010014803A /* FutureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FutureViewController.m; sourceTree = "<group>"; };
+		3D251B6B26CB93010014803A /* FutureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FutureViewController.xib; sourceTree = "<group>"; };
+		3D3D5745266A2D0800A62BEF /* OpenCloseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCloseModel.h; sourceTree = "<group>"; };
+		3D3D5746266A2D0800A62BEF /* OpenCloseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCloseModel.m; sourceTree = "<group>"; };
+		3D49E9A62689BAAF00C70506 /* SmallChartPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmallChartPlayerViewController.h; sourceTree = "<group>"; };
+		3D49E9A72689BAAF00C70506 /* SmallChartPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmallChartPlayerViewController.m; sourceTree = "<group>"; };
+		3D49E9A82689BAAF00C70506 /* SmallChartPlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmallChartPlayerViewController.xib; sourceTree = "<group>"; };
+		3D5B0423267C83F4002810BA /* TISelectCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TISelectCollectionViewController.h; sourceTree = "<group>"; };
+		3D5B0424267C83F4002810BA /* TISelectCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TISelectCollectionViewController.m; sourceTree = "<group>"; };
+		3D5B0427267C840B002810BA /* TISelectCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TISelectCollectionViewCell.h; sourceTree = "<group>"; };
+		3D5B0428267C840B002810BA /* TISelectCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TISelectCollectionViewCell.m; sourceTree = "<group>"; };
+		3D912D0A267065420014A824 /* ChartHeadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartHeadViewController.h; sourceTree = "<group>"; };
+		3D912D0B267065420014A824 /* ChartHeadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartHeadViewController.m; sourceTree = "<group>"; };
+		3D912D0C267065420014A824 /* ChartHeadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChartHeadViewController.xib; sourceTree = "<group>"; };
+		3D978D242669BCD400CE8369 /* ChartDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartDataRequest.m; sourceTree = "<group>"; };
+		3D978D252669BCD400CE8369 /* ChartDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartDataRequest.h; sourceTree = "<group>"; };
+		3D978D262669BCD400CE8369 /* ChartEtnetDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartEtnetDataSource.h; sourceTree = "<group>"; };
+		3D978D272669BCD400CE8369 /* ChartEtnetDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartEtnetDataSource.m; sourceTree = "<group>"; };
+		3D9E658626688FD6009C20AC /* ChartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChartViewController.xib; sourceTree = "<group>"; };
+		3DBB11FE26C377AC00AC1E06 /* OpenClosePrePostModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenClosePrePostModel.h; sourceTree = "<group>"; };
+		3DBB11FF26C377AC00AC1E06 /* OpenClosePrePostModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenClosePrePostModel.m; sourceTree = "<group>"; };
+		3DD144792665DC58009AEF25 /* ChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartViewController.h; sourceTree = "<group>"; };
+		3DD1447A2665DC58009AEF25 /* ChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartViewController.m; sourceTree = "<group>"; };
+		3DD3434E261D49D300365E26 /* ChartLibararyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartLibararyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD34351261D49D300365E26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DD34352261D49D300365E26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DD34354261D49D300365E26 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3DD34355261D49D300365E26 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3DD34357261D49D300365E26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3DD34358261D49D300365E26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3DD3435B261D49D300365E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DD3435D261D49D600365E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DD34360261D49D600365E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DD34362261D49D600365E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD34363261D49D600365E26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E1025412679A5E5004FF3F1 /* CommonUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		4E1025422679A5F2004FF3F1 /* CommonUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		4E32C6A22674C1CE00FF66FF /* ChartHeadViewController_V.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChartHeadViewController_V.xib; sourceTree = "<group>"; };
+		4E43AB9F28A3A2CA00163F44 /* ChartFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChartFramework.framework; path = ../ChartFramework.framework; sourceTree = "<group>"; };
+		4EC9CE3A26A5173800BC9425 /* TIConfigViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIConfigViewController.xib; sourceTree = "<group>"; };
+		4EC9CE3B26A5173800BC9425 /* TIConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIConfigViewController.m; sourceTree = "<group>"; };
+		4EC9CE3C26A5173800BC9425 /* TIConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIConfigViewController.h; sourceTree = "<group>"; };
+		CC5622F8EC3B12109E680258 /* Pods-ChartLibararyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartLibararyDemo.debug.xcconfig"; path = "Target Support Files/Pods-ChartLibararyDemo/Pods-ChartLibararyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DD3434B261D49D300365E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC2B9B728A4AFA900139E9C /* ChartFramework.framework in Frameworks */,
+				FD8013F11F4056C7B9F55E9F /* Pods_ChartLibararyDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D5AB7E7265FA683002FAA38 /* ChartData */ = {
+			isa = PBXGroup;
+			children = (
+				3D978D252669BCD400CE8369 /* ChartDataRequest.h */,
+				3D978D242669BCD400CE8369 /* ChartDataRequest.m */,
+				3D978D262669BCD400CE8369 /* ChartEtnetDataSource.h */,
+				3D978D272669BCD400CE8369 /* ChartEtnetDataSource.m */,
+				3D3D5745266A2D0800A62BEF /* OpenCloseModel.h */,
+				3D3D5746266A2D0800A62BEF /* OpenCloseModel.m */,
+				3DBB11FE26C377AC00AC1E06 /* OpenClosePrePostModel.h */,
+				3DBB11FF26C377AC00AC1E06 /* OpenClosePrePostModel.m */,
+			);
+			path = ChartData;
+			sourceTree = "<group>";
+		};
+		3DD34345261D49D300365E26 = {
+			isa = PBXGroup;
+			children = (
+				4E43AB9F28A3A2CA00163F44 /* ChartFramework.framework */,
+				3DD34350261D49D300365E26 /* ChartLibraryDemo */,
+				3DD3434F261D49D300365E26 /* Products */,
+				AA81E270C13778680C0E5627 /* Pods */,
+				70EBB2AF794F4ADA2CE5A319 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DD3434F261D49D300365E26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DD3434E261D49D300365E26 /* ChartLibararyDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DD34350261D49D300365E26 /* ChartLibraryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3D5AB7E7265FA683002FAA38 /* ChartData */,
+				3DD34351261D49D300365E26 /* AppDelegate.h */,
+				3DD34352261D49D300365E26 /* AppDelegate.m */,
+				3DD34354261D49D300365E26 /* SceneDelegate.h */,
+				3DD34355261D49D300365E26 /* SceneDelegate.m */,
+				3DD34357261D49D300365E26 /* ViewController.h */,
+				3DD34358261D49D300365E26 /* ViewController.m */,
+				3DD3435A261D49D300365E26 /* Main.storyboard */,
+				3DD3435D261D49D600365E26 /* Assets.xcassets */,
+				3DD3435F261D49D600365E26 /* LaunchScreen.storyboard */,
+				3DD34362261D49D600365E26 /* Info.plist */,
+				3DD34363261D49D600365E26 /* main.m */,
+				3D49E9A62689BAAF00C70506 /* SmallChartPlayerViewController.h */,
+				3D49E9A72689BAAF00C70506 /* SmallChartPlayerViewController.m */,
+				3D49E9A82689BAAF00C70506 /* SmallChartPlayerViewController.xib */,
+				3DD144792665DC58009AEF25 /* ChartViewController.h */,
+				3DD1447A2665DC58009AEF25 /* ChartViewController.m */,
+				3D9E658626688FD6009C20AC /* ChartViewController.xib */,
+				3D912D0A267065420014A824 /* ChartHeadViewController.h */,
+				3D912D0B267065420014A824 /* ChartHeadViewController.m */,
+				3D912D0C267065420014A824 /* ChartHeadViewController.xib */,
+				4E32C6A22674C1CE00FF66FF /* ChartHeadViewController_V.xib */,
+				4EC9CE3C26A5173800BC9425 /* TIConfigViewController.h */,
+				4EC9CE3B26A5173800BC9425 /* TIConfigViewController.m */,
+				4EC9CE3A26A5173800BC9425 /* TIConfigViewController.xib */,
+				4E1025412679A5E5004FF3F1 /* CommonUtil.h */,
+				4E1025422679A5F2004FF3F1 /* CommonUtil.m */,
+				3D5B0423267C83F4002810BA /* TISelectCollectionViewController.h */,
+				3D5B0424267C83F4002810BA /* TISelectCollectionViewController.m */,
+				3D5B0427267C840B002810BA /* TISelectCollectionViewCell.h */,
+				3D5B0428267C840B002810BA /* TISelectCollectionViewCell.m */,
+				3D251B6926CB93010014803A /* FutureViewController.h */,
+				3D251B6A26CB93010014803A /* FutureViewController.m */,
+				3D251B6B26CB93010014803A /* FutureViewController.xib */,
+			);
+			path = ChartLibraryDemo;
+			sourceTree = "<group>";
+		};
+		70EBB2AF794F4ADA2CE5A319 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15A4DE2552BAA9E539B42DC6 /* Pods_ChartLibararyDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA81E270C13778680C0E5627 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC5622F8EC3B12109E680258 /* Pods-ChartLibararyDemo.debug.xcconfig */,
+				0C4108891B162093859CA849 /* Pods-ChartLibararyDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DD3434D261D49D300365E26 /* ChartLibararyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD34367261D49D600365E26 /* Build configuration list for PBXNativeTarget "ChartLibararyDemo" */;
+			buildPhases = (
+				CEFD34B542B589B7868F83E3 /* [CP] Check Pods Manifest.lock */,
+				3DD3434A261D49D300365E26 /* Sources */,
+				3DD3434B261D49D300365E26 /* Frameworks */,
+				3DD3434C261D49D300365E26 /* Resources */,
+				4EC2B9B928A4AFA900139E9C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChartLibararyDemo;
+			productName = ChartRecreate;
+			productReference = 3DD3434E261D49D300365E26 /* ChartLibararyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DD34346261D49D300365E26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = william;
+				TargetAttributes = {
+					3DD3434D261D49D300365E26 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3DD34349261D49D300365E26 /* Build configuration list for PBXProject "ChartLibararyDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DD34345261D49D300365E26;
+			productRefGroup = 3DD3434F261D49D300365E26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DD3434D261D49D300365E26 /* ChartLibararyDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DD3434C261D49D300365E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD34361261D49D600365E26 /* LaunchScreen.storyboard in Resources */,
+				3D9E658726688FD6009C20AC /* ChartViewController.xib in Resources */,
+				4E32C6A32674C1CE00FF66FF /* ChartHeadViewController_V.xib in Resources */,
+				3DD3435E261D49D600365E26 /* Assets.xcassets in Resources */,
+				3DD3435C261D49D300365E26 /* Main.storyboard in Resources */,
+				4EC9CE3D26A5173800BC9425 /* TIConfigViewController.xib in Resources */,
+				3D251B6D26CB93010014803A /* FutureViewController.xib in Resources */,
+				3D912D0E267065420014A824 /* ChartHeadViewController.xib in Resources */,
+				3D49E9AA2689BAAF00C70506 /* SmallChartPlayerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEFD34B542B589B7868F83E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChartLibararyDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DD3434A261D49D300365E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1025432679A5F2004FF3F1 /* CommonUtil.m in Sources */,
+				3DD34359261D49D300365E26 /* ViewController.m in Sources */,
+				3DD1447B2665DC58009AEF25 /* ChartViewController.m in Sources */,
+				3D978D2D2669CB1900CE8369 /* ChartEtnetDataSource.m in Sources */,
+				4EC9CE3E26A5173800BC9425 /* TIConfigViewController.m in Sources */,
+				3DD34353261D49D300365E26 /* AppDelegate.m in Sources */,
+				3D5B0429267C840B002810BA /* TISelectCollectionViewCell.m in Sources */,
+				3D1652C92689C1F2009AAD36 /* SmallChartPlayerViewController.m in Sources */,
+				3DD34364261D49D600365E26 /* main.m in Sources */,
+				3D251B6C26CB93010014803A /* FutureViewController.m in Sources */,
+				3D978D2F2669CB1C00CE8369 /* ChartDataRequest.m in Sources */,
+				3DBB120026C377AC00AC1E06 /* OpenClosePrePostModel.m in Sources */,
+				3D3D5747266A2D0800A62BEF /* OpenCloseModel.m in Sources */,
+				3D912D0D267065420014A824 /* ChartHeadViewController.m in Sources */,
+				3D5B0425267C83F4002810BA /* TISelectCollectionViewController.m in Sources */,
+				3DD34356261D49D300365E26 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3DD3435A261D49D300365E26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DD3435B261D49D300365E26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DD3435F261D49D600365E26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DD34360261D49D600365E26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DD34365261D49D600365E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3DD34366261D49D600365E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DD34368261D49D600365E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC5622F8EC3B12109E680258 /* Pods-ChartLibararyDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = EF67928JXA;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = EF67928JXA;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ChartLibraryDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.etnet.iphone.chartlibrary.demo1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Chart Library Demo AdHoc Distribution";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "etnet iOS Wildcard Development";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Debug;
+		};
+		3DD34369261D49D600365E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C4108891B162093859CA849 /* Pods-ChartLibararyDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = EF67928JXA;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ChartLibraryDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.etnet.iphone.chartlibrary.demo1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Chart Library Demo AdHoc Distribution";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DD34349261D49D300365E26 /* Build configuration list for PBXProject "ChartLibararyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD34365261D49D600365E26 /* Debug */,
+				3DD34366261D49D600365E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD34367261D49D600365E26 /* Build configuration list for PBXNativeTarget "ChartLibararyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD34368261D49D600365E26 /* Debug */,
+				3DD34369261D49D600365E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DD34346261D49D300365E26 /* Project object */;
+}

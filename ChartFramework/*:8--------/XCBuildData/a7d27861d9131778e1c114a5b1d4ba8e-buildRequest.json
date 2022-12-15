@@ -1,0 +1,45 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "5cd940ac03796a99915123f9ec90c77446ffdc3f56c4c3b11872fac90e763210"
+    }
+  ],
+  "containerPath" : "/Users/gary/Documents/GitHub/ios_chart_library/ChartFramework/ChartFramework.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "BUILD_DIR" : "/Users/gary/Library/Developer/Xcode/DerivedData/ChartLibrary-egjqyulcekzzbkewdfpewdpvadas/Build/Products",
+          "BUILD_ROOT" : "/Users/gary/Library/Developer/Xcode/DerivedData/ChartLibrary-egjqyulcekzzbkewdfpewdpvadas/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "NO",
+          "SDKROOT" : "iphoneos16.0",
+          "TOOLCHAINS" : "com.apple.dt.toolchain.XcodeDefault"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      },
+      "toolchainOverride" : "com.apple.dt.toolchain.XcodeDefault"
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

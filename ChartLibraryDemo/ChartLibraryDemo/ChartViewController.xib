@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChartViewController">
+            <connections>
+                <outlet property="chartContainer" destination="uL7-Hs-Qhr" id="no2-1E-c1u"/>
+                <outlet property="chartContainerBottom" destination="dc6-e9-qXi" id="2CC-j3-eci"/>
+                <outlet property="chartContainerLeading" destination="s5q-cl-c9U" id="9cJ-AQ-3rV"/>
+                <outlet property="chartContainerTop" destination="TeD-ss-B8h" id="oXK-Li-vEp"/>
+                <outlet property="chartContainerTrailing" destination="dZC-NM-FoC" id="VK4-ZI-KxQ"/>
+                <outlet property="headView" destination="Utb-UD-76h" id="ipb-pZ-u9B"/>
+                <outlet property="headViewHeight" destination="8lO-hq-jsd" id="taV-3e-wfA"/>
+                <outlet property="view" destination="iN0-l3-epB" id="6f9-3Y-DZ5"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uL7-Hs-Qhr" userLabel="FullChartView">
+                    <rect key="frame" x="0.0" y="94" width="414" height="768"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Utb-UD-76h" userLabel="HeadView">
+                    <rect key="frame" x="0.0" y="44" width="414" height="50"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="8lO-hq-jsd"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Utb-UD-76h" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="L9Y-BN-EhC"/>
+                <constraint firstItem="uL7-Hs-Qhr" firstAttribute="top" secondItem="Utb-UD-76h" secondAttribute="bottom" id="TeD-ss-B8h"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Utb-UD-76h" secondAttribute="trailing" id="ZHB-y8-nrF"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="uL7-Hs-Qhr" secondAttribute="trailing" id="dZC-NM-FoC"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="uL7-Hs-Qhr" secondAttribute="bottom" id="dc6-e9-qXi"/>
+                <constraint firstItem="Utb-UD-76h" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="iqL-po-v1t"/>
+                <constraint firstItem="uL7-Hs-Qhr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="s5q-cl-c9U"/>
+            </constraints>
+            <point key="canvasLocation" x="116" y="60"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
